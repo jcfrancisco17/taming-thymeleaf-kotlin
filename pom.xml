@@ -55,10 +55,12 @@
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
+				<!-- exclude these files from the build because they will be replaced -->
 				<excludes>
 					<exclude>**/*.html</exclude>
 					<exclude>**/*.css</exclude>
 					<exclude>**/*.js</exclude>
+					<exclude>**/*.svg</exclude>
 				</excludes>
 			</resource>
 		</resources>
