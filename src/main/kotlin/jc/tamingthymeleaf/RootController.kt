@@ -13,6 +13,6 @@ class RootController {
     fun index(model: Model): String {
         model.addAttribute("pageTitle", "Taming Thymeleaf")
         model.addAttribute("scientists", listOf("Albert Einstein", "Niels Bohr", "James Clerk Maxwell"))
-        return "index"
+        return "redirect:/users"
     }
 }
