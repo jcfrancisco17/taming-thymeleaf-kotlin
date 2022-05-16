@@ -1,4 +1,4 @@
-package jc.tamingthymeleaf
+package jc.tamingthymeleaf.application.infrastructure.web
 
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model

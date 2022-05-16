@@ -1,4 +1,4 @@
-package jc.tamingthymeleaf
+package jc.tamingthymeleaf.application
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
